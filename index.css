@@ -1,0 +1,26 @@
+.container{
+    background-color: red;
+    color: aquamarine;
+    height: 60vh;
+}
+.box1{
+    
+    border: 2px solid black ;
+    transform: translate(134px , 56px) rotate(0deg);
+    transform-origin: 0;
+    /* transform: scaleX(2); */
+    /* transform: skew(0deg , 15.3deg); */
+    display: inline-block;
+}
+img:hover{
+    width: 220px;
+    height: 100px;
+}
+img{
+    width: 350px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+
+}

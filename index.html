@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transformation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit alias veniam impedit voluptatem suscipit dicta cum repellat assumenda blanditiis, praesentium deleniti deserunt sequi exercitationem sit voluptate ipsum commodi quasi minima reiciendis, error hic, eaque architecto reprehenderit! Animi totam officia, quas libero, accusamus officiis distinctio suscipit inventore repudiandae ad veritatis. -->
+            <img id='myimage'  src="image.png" alt="wait loading" width="320px" height="200px">
+            <button id="btn"> Toggle  </button>
+
+        </div>
+    </div>
+    <script>
+        myimage.style.width = '350px';
+
+        btn.addEventListener("click", ()=>{
+            if(myimage.style.width === '546px'){
+            myimage.style.width = "350px";
+        }
+        else if(myimage.style.width === '350px'){
+            myimage.style.width =" 546px"
+        }    
+        })
+    </script>
+</body>
+</html>

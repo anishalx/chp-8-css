@@ -1,0 +1,52 @@
+*{margin: 0;
+padding: 0;}
+.bar{
+    background-color: red;
+    height: 3px;
+    animation: holy 1s ease-in-out 1;
+
+}
+header{
+    height: 122px;
+    background-color: black;
+
+}
+main{
+    height: 900px;
+    background-color: aquamarine;
+}
+@keyframes holy {
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width: 80vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+img{
+    /* animation: rotate 1s ease-in-out infinite; */
+    display: block;
+    margin: auto;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    /* 50%{
+        transform: rotate(180deg);
+        
+    } */
+    100%{
+        transform: rotate(360deg);
+        
+    }
+}
+.slider{
+    background-color: rgba(35, 29, 138, 0.905);
+    height: 323px;
+    width: 100vw;
+    overflow: hidden;
+}
